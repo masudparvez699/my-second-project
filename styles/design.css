@@ -27,7 +27,7 @@ body {
     background-position: cover;
 }
 
-.openning {
+.list {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,7 +58,7 @@ nav ul li {
     margin-bottom: 40px;
 }
 
-.btn-2 {
+.btn-second {
     color: #FFFFFF;
     background-color: #4E47FF;
     padding: 12px 12px;
@@ -67,7 +67,7 @@ nav ul li {
     width: 170px;
     margin-bottom: 20px;
 }
-.btn-2:hover {
+.btn-second:hover {
     background-color: yellow;
     color: black;
 }
@@ -106,4 +106,34 @@ nav ul li {
 }
 .action-img {
     border-radius: 30px;
+}
+/* User section styles  */
+.user {
+    background-color: #ccc9ff;
+    margin: 100px 100px;
+    border-radius: 30px;
+}
+.user-title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 30px;
+}
+.user-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.user-number {
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+}
+.user-description {
+    font-size: 20px;
+    font-weight: normal;
+    color: #696969;
 }
