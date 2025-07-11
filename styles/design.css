@@ -1,0 +1,109 @@
+/* shared style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    padding: 12px 12px;
+    border-radius: 10px;
+    border: none;
+    width: 130px;
+}
+.btn-primary:hover {
+    background-color: yellow;
+    color: black;
+}
+body {
+    background-color: #dfe4ee;
+}
+
+/* nav section style  */
+.header {
+    background-image: url(../Assets/Hero-bg.png);
+    background-position: cover;
+}
+
+.openning {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.logo {
+    font-size: 34px;
+    color: #4E47FF;
+    font-weight: bold;
+}
+
+/* banner section styles */
+.banner {
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.btn-2 {
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    padding: 12px 12px;
+    border-radius: 10px;
+    border: none;
+    width: 170px;
+    margin-bottom: 20px;
+}
+.btn-2:hover {
+    background-color: yellow;
+    color: black;
+}
+
+/* action section styles  */
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 100px;
+}
+
+.action-title {
+    font-size: 34px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 10px;
+}
+.action-description {
+    font-size: 24px;
+    font-weight: normal;
+    color: #7c7997;
+    margin-bottom: 15px;
+}
+.btn-secondary {
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    padding: 12px 12px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+}
+.btn-secondary:hover {
+    background-color: yellow;
+    color: black;
+}
+.action-img {
+    border-radius: 30px;
+}
