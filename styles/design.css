@@ -13,10 +13,12 @@
     border: none;
     width: 130px;
 }
+
 .btn-primary:hover {
-    background-color: yellow;
+    background-color: brown;
     color: black;
 }
+
 body {
     background-color: #dfe4ee;
 }
@@ -67,8 +69,9 @@ nav ul li {
     width: 170px;
     margin-bottom: 20px;
 }
+
 .btn-second:hover {
-    background-color: yellow;
+    background-color: brown;
     color: black;
 }
 
@@ -86,12 +89,14 @@ nav ul li {
     color: #252432;
     margin-bottom: 10px;
 }
+
 .action-description {
     font-size: 24px;
     font-weight: normal;
     color: #7c7997;
     margin-bottom: 15px;
 }
+
 .btn-secondary {
     color: #FFFFFF;
     background-color: #4E47FF;
@@ -100,19 +105,23 @@ nav ul li {
     border: none;
     width: 200px;
 }
+
 .btn-secondary:hover {
-    background-color: yellow;
+    background-color: brown;
     color: black;
 }
+
 .action-img {
     border-radius: 30px;
 }
+
 /* User section styles  */
 .user {
     background-color: #ccc9ff;
     margin: 100px 100px;
     border-radius: 30px;
 }
+
 .user-title {
     text-align: center;
     font-size: 34px;
@@ -120,6 +129,7 @@ nav ul li {
     margin-top: 30px;
     padding: 30px;
 }
+
 .user-details {
     display: flex;
     justify-content: space-around;
@@ -127,22 +137,26 @@ nav ul li {
     text-align: center;
     padding-bottom: 30px;
 }
+
 .user-number {
     color: #4E47FF;
     font-size: 80px;
     font-weight: bold;
 }
+
 .user-description {
     font-size: 20px;
     font-weight: normal;
     color: #696969;
 }
+
 /* review section styles  */
 .reviews {
     display: flex;
     justify-content: space-around;
     padding: 0px 100px;
 }
+
 .review-title {
     font-size: 40px;
     font-weight: bold;
@@ -150,38 +164,152 @@ nav ul li {
     text-align: center;
     margin-bottom: 15px;
 }
+
 .review-1 {
     background-color: white;
     border-radius: 20px;
 }
+
 .rising-star {
     padding: 5px 10px;
 }
+
 .review-description {
     color: #525252;
     font-size: 15px;
     padding: 5px 10px;
 }
+
 .user-information {
     display: flex;
     gap: 10px;
     align-items: center;
     padding: 10px 10px;
 }
+
 .user-img {
     border-radius: 100px;
 }
+
 .user-name {
     color: #757575;
     font-size: 12px;
     font-weight: bold;
 }
+
 .date {
     color: #B3B3B3;
     font-size: 10px;
     font-weight: bold;
 }
+
 .review-head {
     font-size: 30px;
     padding: 10px 10px;
+}
+
+/* focus section styles  */
+.focus {
+    text-align: center;
+    background-color: #FFFFFF;
+    margin: 100px 100px;
+    border-radius: 10px;
+}
+
+.focus-title {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+
+.focus-description {
+    font-size: 15px;
+    font-weight: normal;
+    color: #8987A1;
+    padding-bottom: 15px;
+}
+
+.focus-btn {
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    padding: 12px 12px;
+    border-radius: 10px;
+    border: none;
+    width: 170px;
+    margin-bottom: 15px;
+}
+
+.focus-btn:hover {
+    background-color: brown;
+    color: black;
+}
+
+.focus-image {
+    border-radius: 30px;
+    width: 800px;
+    margin-bottom: 50px;
+}
+
+/* contact section styles  */
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 50px;
+    background-color: #d8e6ff;
+    border-radius: 10px;
+}
+
+.contact-title {
+    font-size: 70px;
+    font-weight: bold;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.contact-form {
+    width: 50%;
+    margin-top: 20px;
+}
+
+form input[type="text"] {
+    border: none;
+    border-radius: 7px;
+    width: 90%;
+    height: 50px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type="name"] {
+    border: none;
+    border-radius: 7px;
+    width: 90%;
+    height: 50px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+form textarea {
+    border: none;
+    border-radius: 7px;
+    width: 90%;
+    height: 130px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-third {
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    padding: 12px 12px;
+    border-radius: 10px;
+    border: none;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.btn-third:hover {
+    background-color: brown;
+    color: black;
 }
